@@ -7,4 +7,4 @@ Design an attractive and visually appealing layout that captures visitors' atten
 Include a home page with a captivating headline, professional photo, and summary of your skills. 
 Provide an "About Me" section with a detailed background, education, and professional experience. 
 
-Live View : 
+Live View : https://izueno.github.io/PRODIGY_WD_04/
