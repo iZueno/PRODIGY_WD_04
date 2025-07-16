@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+ <style>
+  .content-section, .content-section * {
+    font-family: 'Caveat', cursive !important;
+    text-align: center;
+  }
+
+  .content-section h1 {
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .project-card {
+    background-color: gba(242, 242, 242, 0.7);
+    border-radius: 12px;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+ }
+
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+
+  .project-card h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #222;
+  }
+
+  .project-card p {
+    font-size: 1.6rem;
+    color: black;
+    margin-bottom: 15px;
+  }
+
+  .project-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+  }
+</style>
+
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo"></a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content-section">
+      <h1>My Projects</h1>
+      <div class="project-grid">
+
+        <div class="project-card">
+	  <img src="images/project1.png" alt="Screenshot of Project One">
+          <h2>Responsive Landing Page</h2>
+          <p>A web-based responsive landing page in real time.</p>
+          <a href="https://github.com/iZueno/PRODIGY_WD_01" target="_blank">View on GitHub &nbsp</a>
+	  <a href="https://izueno.github.io/PRODIGY_WD_01/" target="_blank">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+	  <img src="images/project2.png" alt="Screenshot of Project Two">
+          <h2>Stopwatch Web Application</h2>
+          <p>A colorful web-based stopwatch to track time.</p>
+          <a href="https://github.com/iZueno/PRODIGY_WD_02" target="_blank">View on GitHub &nbsp</a>
+	  <a href="https://izueno.github.io/PRODIGY_WD_02/" target="_blank">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+	  <img src="images/project3.png" alt="Screenshot of Project Three">
+          <h2>Tic-Tac-Toe Web Application</h2>
+          <p>A web-based tic-tac-toe game with PvP and AI opponent.</p>
+          <a href="https://github.com/iZueno/PRODIGY_WD_03" target="_blank">View on GitHub &nbsp</a>
+	  <a href="https://izueno.github.io/PRODIGY_WD_03/" target="_blank">Live Demo</a>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>© 2025 Sinai's Portfolio</p>
+    </div>
+  </footer>
+</body>
+</html>
